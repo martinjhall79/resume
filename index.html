@@ -3,75 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Caveat|Open+Sans:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
     <title>Martin Hall | Front End Web Developer Resume</title>
 </head>
 <body>
     <!-- // Intro -->
     <header>
-        <img src="" alt="Martin Hall - front-end web developer in Moreacambe UK">
-        <h1>Martin Hall</h1>
-        <h2>Frontend Web Developer & Technical SEO Expert</h2>
-        <p>Hi, I&rsquo;m a frontend web developer based in Morecambe in the UK. I craft responsive, user friendly, websites and web applications with HTML5, CSS and JavaScript. I&rsquo;m a also a highly experienced technical SEO engineer. When I have some down time, I love to code games and I&rsquo;m proud to be a Unity Certified Developer.</p>
+      <div class="content-wrap">
+        <img class="profile-img col-narrow" src="img/me-pic.jpg" alt="Martin Hall - front-end web developer in Moreacambe UK">
+          <div class="col-wide">
+            <h1>Martin Hall</h1>
+            <h2>Frontend Web Developer & Technical SEO Expert</h2>
+            <p>Hi, I&rsquo;m a frontend web developer based in Morecambe in the UK. I craft responsive, user friendly, websites and web applications with HTML5, CSS and JavaScript. I&rsquo;m a also a highly experienced technical SEO engineer. When I have some down time, I love to code games and I&rsquo;m proud to be a Unity Certified Developer.</p>
+          </div>
+      </div>
+      <!-- // end of Intro block -->
     </header>
 
     <main>
         <!-- // Work Experience -->
-        <section>
+        <section class="work">
+          <div class="content-wrap">
             <h2>Work Experience</h2>
+            <!-- Job Details -->
+            <div class="col-narrow">
+              <h3>Frontend Web Developer</h3>
+              <p>Independent / Freelance</p>
+              <p>2017 - Present</p>
+            </div>
+            <div class="col-wide">
+              <p>Provides various front-end related services including PSD to HTML slice and dice coding, one page applications with JavaScript and intuitive UI&rsquo;s with React.js.</p>
 
-            <!-- Job Details: copy this whole block to add more jobs -->
-            <h3>Frontend Web Developer</h3>
-            <p>Independent / Freelance</p>
-            <p>2017 - Present</p>
-
-            <!-- Add as many paragraphs as you need. -->
-            <p>Provides various front-end related services including PSD to HTML slice and dice coding, one page applications with JavaScript and intuitive UI&rsquo;s with React.js.</p>
-
-            <!-- This list can be deleted if you don't want to use it. -->
-            <p>Optional list:</p>
-            <ul>
-                <li>Performed technical SEO audits of over 800 websites</li>
-                <li>Developed 3 Wordpress sites</li>
-                <li>Run full service SEO campaigns for 20 companies</li>
-            </ul>
-
-            <h3>Technical SEO Consultant</h3>
-            <p>Independent / Freelance</p>
-            <p>2013 - 2017</p>
-
-            <!-- Add as many paragraphs as you need. -->
-            <p>Over fours years delivering freelance SEO services, I've done technical SEO audits of over 800 websites in a very wide range of industry sectors.</p>
-
-            <!-- This list can be deleted if you don't want to use it. -->
-            <p>Optional list:</p>
-            <ul>
-                <li>Performed technical SEO audits of over 800 websites</li>
-                <li>Developed 3 Wordpress sites</li>
-                <li>Delivered full-service SEO campaigns for 20 companies</li>
-            </ul>
-
-            <h3>PHP Developer</h3>
-            <p>Hotel Profit Systems</p>
-            <p>2012</p>
-
-            <!-- Add as many paragraphs as you need. -->
-            <p>Designed, built and maintained websites for hotels with basic custom CMS systems built with PHP.</p>
-
-            <!-- This list can be deleted if you don't want to use it. -->
-            <p>Optional list:</p>
-            <ul>
-                <li>Simple bespoke CMS systems</li>
-                <li>Junior level PHP programming</li>
-                <li>Design and builds with HTML</li>
-            </ul>
+              <p>Optional list:</p>
+              <ul>
+                  <li>Performed technical SEO audits of over 800 websites</li>
+                  <li>Developed 3 Wordpress sites</li>
+                  <li>Run full service SEO campaigns for 20 companies</li>
+              </ul>
             <!-- end of Job Details block. -->
+            </div>
 
+            <!-- Job Details -->
+            <div class="col-narrow">
+              <h3>Technical SEO Consultant</h3>
+              <p>Independent / Freelance</p>
+              <p>2013 - 2017</p>
+            </div>
+            <div class="col-wide">
+              <p>Over fours years delivering freelance SEO services, I've done technical SEO audits of over 800 websites in a very wide range of industry sectors.</p>
+
+              <p>Optional list:</p>
+              <ul>
+                  <li>Performed technical SEO audits of over 800 websites</li>
+                  <li>Developed 3 Wordpress sites</li>
+                  <li>Delivered full-service SEO campaigns for 20 companies</li>
+              </ul>
+            <!-- end of Job Details block. -->
+            </div>
+
+            <div class="col-narrow">
+              <!-- Job Details -->
+              <h3>PHP Developer</h3>
+              <p>Hotel Profit Systems</p>
+              <p>2012</p>
+            </div>
+            <div class="col-wide">
+              <p>Designed, built and maintained websites for hotels with basic custom CMS systems built with PHP.</p>
+
+              <p>Optional list:</p>
+              <ul>
+                  <li>Simple bespoke CMS systems</li>
+                  <li>Junior level PHP programming</li>
+                  <li>Design and builds with HTML</li>
+              </ul>
+            </div>
+            <!-- end of Job Details block. -->
+          </div>
+        <!-- end of Work Experience block. -->
         </section>
 
-
         <!-- // Education -->
-        <section>
+        <section class="education">
+          <div class="content-wrap">
             <h2>Education</h2>
 
             <!-- School details: copy this whole block to add more schools. -->
@@ -87,15 +101,18 @@
             <!-- Add as many paragraphs as you need. -->
             <p>Summary.</p>
             <!-- End of school details. -->
+          </div>
+        <!-- end of Work Education block. -->
         </section>
     </main>
 
     <!-- // Footer & contact info -->
     <footer>
+      <div class="content-wrap">
         <h2>Let's Keep in Touch!</h2>
 
-        <!-- Social media and contact links. Add or remove any networks. -->
-        <div>
+        <!-- Social media and contact links. -->
+        <div class="contact-info">
             <a href="mailto:martin@martinjhall.com">martin@martinjhall.com</a>
             <a href="http://yourwebsite.com" target="_blank">www.martinjhall.com</a>
             <a href="https://twitter.com/_MartinHall" target="_blank">Twitter</a>
@@ -104,6 +121,7 @@
         </div>
 
         <p>Copyright 2018 by Martin J. Hall</p>
+      </div>
     </footer>
 </body>
 </html>
